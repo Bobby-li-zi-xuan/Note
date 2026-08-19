@@ -1,0 +1,11 @@
+{
+  "accentColor": "#a8b7ff",
+  "theme": "moonstone",
+  "cssTheme": "Maple",
+  "showRibbon": true,
+  "interfaceFontFamily": "微软雅黑",
+  "textFontFamily": "微软雅黑",
+  "baseFontSizeAction": true,
+  "baseFontSize": 16,
+  "enabledCssSnippets": []
+}

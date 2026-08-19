@@ -1,0 +1,151 @@
+/* @settings
+name: Minimal 星月夜配色
+id: minimal-starlight-theme
+settings:
+  - id: color-heading
+    title: 🌈 核心配色
+    type: heading
+    level: 2
+    collapsed: false
+  - id: primary-color
+    title: 主色调（按钮/标题）
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#6366f1'
+  - id: secondary-color
+    title: 辅助色（链接/高亮）
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#0ea5e9'
+  - id: success-color
+    title: 成功色（完成/提示）
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#10b981'
+  - id: error-color
+    title: 错误色（警告/删除）
+    type: variable-color
+    format: hex
+    opacity: false
+    default: '#ef4444'
+
+  - id: neutral-heading
+    title: 🎨 中性配色
+    type: heading
+    level: 2
+    collapsed: true
+  - id: bg-light
+    title: 浅色模式背景
+    type: variable-themed-color
+    format: hex
+    default-light: '#f8fafc'
+    default-dark: '#0f172a'
+  - id: text-primary
+    title: 主文本色
+    type: variable-themed-color
+    format: hex
+    default-light: '#1e293b'
+    default-dark: '#f1f5f9'
+  - id: text-secondary
+    title: 副文本色（注释/次要）
+    type: variable-themed-color
+    format: hex
+    default-light: '#64748b'
+    default-dark: '#94a3b8'
+  - id: border-color
+    title: 边框/分割线
+    type: variable-themed-color
+    format: hex
+    default-light: '#e2e8f0'
+    default-dark: '#2d3748'
+
+  - id: layout-heading
+    title: 🧩 布局与细节
+    type: heading
+    level: 2
+    collapsed: true
+  - id: rounded-radius
+    title: 全局圆角
+    type: variable-number-slider
+    default: 12
+    min: 0
+    max: 20
+    step: 1
+    format: px
+  - id: shadow-opacity
+    title: 阴影透明度
+    type: variable-number-slider
+    default: 0.1
+    min: 0
+    max: 0.3
+    step: 0.05
+    format: ''
+*/
+
+/* 核心变量映射 */
+:root {
+  --primary: var(--primary-color);
+  --secondary: var(--secondary-color);
+  --success: var(--success-color);
+  --error: var(--error-color);
+  
+  --bg-light: var(--bg-light);
+  --bg-dark: var(--bg-dark);
+  --text-primary: var(--text-primary);
+  --text-secondary: var(--text-secondary);
+  --border: var(--border-color);
+  
+  --radius: var(--rounded-radius);
+  --shadow-alpha: var(--shadow-opacity);
+}
+
+/* Minimal 主题覆盖 */
+body {
+  /* 主色调 */
+  --mono-accent: var(--primary);
+  --mono-accent-hover: var(--primary);
+  --mono-link: var(--secondary);
+  --mono-link-hover: var(--secondary);
+  
+  /* 中性色 */
+  --mono-bg: var(--bg-light);
+  --mono-bg-alt: var(--bg-light);
+  --mono-text: var(--text-primary);
+  --mono-text-alt: var(--text-secondary);
+  
+  /* 状态色 */
+  --mono-success: var(--success);
+  --mono-warning: var(--error);
+  --mono-danger: var(--error);
+  
+  /* 布局 */
+  --mono-radius: var(--radius);
+  --mono-shadow: 0 4px 12px rgba(0, 0, 0, var(--shadow-alpha));
+  --mono-border: 1px solid var(--border);
+}
+
+/* 深色模式适配 */
+body.theme-dark {
+  --mono-bg: var(--bg-dark);
+  --mono-bg-alt: var(--bg-dark);
+  --mono-text: var(--text-primary);
+  --mono-text-alt: var(--text-secondary);
+  --mono-border: 1px solid var(--border);
+}
+
+/* 细节优化 */
+.workspace-leaf-content, .modal, .sidebar-item {
+  border-radius: var(--mono-radius) !important;
+  box-shadow: var(--mono-shadow) !important;
+}
+
+/* 代码块样式 */
+.cm-s-obsidian pre.HyperMD-codeblock,
+.markdown-preview-view code {
+  background: var(--bg-light) !important;
+  border: var(--mono-border) !important;
+  border-radius: var(--mono-radius) !important;
+}

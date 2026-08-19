@@ -1,0 +1,252 @@
+{
+  "main": {
+    "id": "01899c3ac5ec80a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "46a377d63c10e2aa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9b0e84318dcb7ca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/JAVA理论.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "JAVA理论"
+            }
+          },
+          {
+            "id": "944a180330145456",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "项目/Agent/总览.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "总览"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a5bf55be0b1dd3de",
+    "type": "split",
+    "children": [
+      {
+        "id": "91811ffdad42181d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ade11a20f343f02",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "590ebc37602fca68",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "c7fb3e0d941438c6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 225.00152587890625
+  },
+  "right": {
+    "id": "f3d8e7a9e93ce0b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd29ec8aef0dd1f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb65800adda32713",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Maven/Maven进阶.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Maven进阶 的反向链接列表"
+            }
+          },
+          {
+            "id": "6b0b0fcca9c4c279",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Maven/Maven进阶.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Maven进阶 的出链列表"
+            }
+          },
+          {
+            "id": "a93a86c8c7ec597c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "682f4e396bcc68af",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "2466cc7ce38ba306",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Java/JAVA理论.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 248
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": true,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "e9b0e84318dcb7ca",
+  "lastOpenFiles": [
+    "项目/Agent/总览.md",
+    "项目/Agent/01-runtime模块.md",
+    "项目/Agent/02-llm模块.md",
+    "项目/Agent/03-tools模块.md",
+    "项目/Agent/04-memory模块.md",
+    "项目/Agent/05-subagent模块.md",
+    "项目/Agent/09-entertainment模块.md",
+    "项目/Agent/08-ai-companion-persona-emotion.md",
+    "项目/Agent/07-容灾机制.md",
+    "项目/Agent/06-api-security-model-skill-observer.md",
+    "项目/学习计划.md",
+    "计算机网络/计算机网络.md",
+    "项目/Agent/10-简历项目详解.md",
+    "AI/Agent开发理论.md",
+    "数据库/数据库.md",
+    "项目/Gateway/implementation/版本1-详细实施计划.md",
+    "项目/Gateway/plan/版本1-详细实施计划.md",
+    "Redis/Redis理论.md",
+    "Java/JAVA理论.md",
+    "未命名.md",
+    "1.md",
+    "项目/Agent/未命名.md",
+    "未命名 1",
+    "未命名",
+    "AI/RAG理论.md",
+    "操作系统/操作系统.md",
+    "操作系统",
+    "项目/RAG/INTERVIEW-PREP.md",
+    "新建文件夹/system-context-diagram.svg",
+    "新建文件夹/system-context-diagram.png",
+    "新建文件夹/需求评审报告.pdf",
+    "新建文件夹/实验报告.md",
+    "新建文件夹/软件项目管理_实验五_报告.pdf",
+    "SSM/spring.pdf",
+    "新建文件夹/attachments/Pasted image 20260616172807.png",
+    "新建文件夹/attachments/Pasted image 20260616172211.png",
+    "新建文件夹/attachments/Pasted image 20260616172126.png",
+    "新建文件夹/attachments/Pasted image 20260616172110.png",
+    "新建文件夹/attachments/Pasted image 20260616172056.png",
+    "新建文件夹/attachments/Pasted image 20260616171743.png",
+    "新建文件夹/attachments/Pasted image 20260616171614.png",
+    "新建文件夹/attachments/Pasted image 20260616171312.png",
+    "新建文件夹/实验报告.md.tmp.16408.c1769f81782e",
+    "新建文件夹/system-context-diagram.mmd.tmp.16408.5ef6a242bb16",
+    "新建文件夹/attachments",
+    "新建文件夹/实验报告.md.tmp.16408.8004e277a44d"
+  ]
+}
